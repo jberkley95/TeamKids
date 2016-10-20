@@ -20,11 +20,19 @@
         android:contentDescription="@string/team_kids_logo" />
 
     <Button
-        android:text="Test Button"
+        android:text="Important Thing 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/button6" />
+
+    <Button
+        android:text="Social Media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button7" />
 
 </RelativeLayout>
