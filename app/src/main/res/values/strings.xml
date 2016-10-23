@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Team Kids</string>
     <string name="team_kids_logo">Team Kids Logo</string>
+    <string name="facebook_icon">Facebook Icon</string>
+    <string name="twitter_icon">Twitter Icon</string>
+    <string name="instagram_icon">Instagram Icon</string>
+    <string name="vimeo_icon">Vimeo Icon</string>
+    <string name="pinterest_icon">Pinterest Icon</string>
+    <string name="donate_now">Donate Now</string>
+    <string name="events">Events</string>
+    <string name="media">Media</string>
+    <string name="mission_and_values">Mission and Values</string>
+    <string name="our_history">Our History</string>
+    <string name="what_we_do">What We Do</string>
+    <string name="why_it_matters">Why It Matters</string>
+    <string name="main_menu">Main Menu</string>
 </resources>

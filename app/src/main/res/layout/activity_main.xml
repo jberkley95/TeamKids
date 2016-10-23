@@ -40,28 +40,28 @@
                 android:layout_weight="1">
 
                 <Button
-                    android:text="Button"
+                    android:text="@string/mission_and_values"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button4"
+                    android:id="@+id/missionButton"
                     android:layout_margin="10dp"
-                    android:padding="25dp" />
+                    android:padding="25dp"
+                    android:layout_height="85dp" />
 
                 <Button
-                    android:text="Button"
+                    android:text="@string/what_we_do"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button6"
+                    android:id="@+id/whatWeDoButton"
                     android:layout_margin="10dp"
-                    android:padding="25dp" />
+                    android:padding="25dp"
+                    android:layout_height="85dp" />
 
                 <Button
-                    android:text="Button"
+                    android:text="@string/events"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button8"
+                    android:id="@+id/eventsButton"
                     android:layout_margin="10dp"
-                    android:padding="25dp" />
+                    android:padding="25dp"
+                    android:layout_height="85dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -71,84 +71,91 @@
                 android:layout_weight="1">
 
                 <Button
-                    android:text="Button"
+                    android:text="@string/our_history"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button5"
+                    android:id="@+id/historyButton"
                     android:layout_margin="10dp"
-                    android:padding="25dp" />
+                    android:padding="25dp"
+                    android:layout_height="85dp" />
 
                 <Button
-                    android:text="Button"
+                    android:text="@string/why_it_matters"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button7"
+                    android:id="@+id/whyItMattersButton"
                     android:layout_margin="10dp"
-                    android:padding="25dp" />
+                    android:padding="25dp"
+                    android:layout_height="85dp" />
 
                 <Button
-                    android:text="Button"
+                    android:text="@string/media"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button9"
+                    android:id="@+id/mediaButton"
                     android:layout_margin="10dp"
-                    android:padding="25dp" />
+                    android:padding="25dp"
+                    android:layout_height="85dp" />
 
             </LinearLayout>
         </LinearLayout>
 
         <Button
-            android:text="Button"
+            android:text="@string/donate_now"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button10"
+            android:id="@+id/donateButton"
             android:layout_margin="10dp"
-            android:padding="25dp" />
+            android:padding="25dp"
+            android:background="@android:color/holo_red_dark" />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp">
 
             <ImageView
                 android:layout_width="wrap_content"
                 app:srcCompat="@drawable/facebook"
-                android:id="@+id/imageView3"
+                android:id="@+id/facebookButton"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:layout_height="75dp" />
+                android:layout_height="75dp"
+                android:contentDescription="@string/facebook_icon" />
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:id="@+id/imageView5"
+                android:id="@+id/twitterButton"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/twitter"
                 android:layout_margin="10dp"
-                android:layout_height="75dp" />
+                android:layout_height="75dp"
+                android:contentDescription="@string/twitter_icon" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 app:srcCompat="@drawable/instagram"
-                android:id="@+id/imageView2"
+                android:id="@+id/instagramButton"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:layout_height="75dp" />
+                android:layout_height="75dp"
+                android:contentDescription="@string/instagram_icon" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 app:srcCompat="@drawable/vimeo"
-                android:id="@+id/imageView4"
+                android:id="@+id/vimeoButton"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:layout_height="75dp" />
+                android:layout_height="75dp"
+                android:contentDescription="@string/vimeo_icon" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 app:srcCompat="@drawable/pinterest"
-                android:id="@+id/imageView6"
+                android:id="@+id/pinterestButton"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:layout_height="75dp" />
+                android:layout_height="75dp"
+                android:contentDescription="@string/pinterest_icon" />
 
         </LinearLayout>
 
