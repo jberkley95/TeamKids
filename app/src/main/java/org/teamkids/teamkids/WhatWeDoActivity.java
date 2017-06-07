@@ -36,5 +36,6 @@ public class WhatWeDoActivity extends AppCompatActivity {
     private void openURL() {
         webview.loadUrl("https://www.teamkids.org/what-we-do");
         webview.requestFocus();
+        System.out.println("teygy");
     }
 }
